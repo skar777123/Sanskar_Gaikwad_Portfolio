@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+// import Image from "next/image";
 
 const Hero = () => {
   return (
@@ -50,7 +51,7 @@ const Hero = () => {
             />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              I'm a full-stack developer with a passion for AI and machine
+              I&apos;m a full-stack developer with a passion for AI and machine
               learning.
             </p>
 
