@@ -3,7 +3,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { cn } from "@/lib/utils";
-import { Button } from "./MovingBorders";
+import { Button } from "./MovingBorder";
 
 type Card = {
   id: number;
