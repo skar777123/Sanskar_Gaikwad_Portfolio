@@ -87,6 +87,16 @@ export function ThreeDCardDemo() {
           );
         })}
       </div>
+      <div
+        className="
+          flex 
+          justify-center items-center        
+        "
+      >
+        <h1 className="font-mono font-extrabold text-white-200 text-xl">
+          More in Progress...
+        </h1>
+      </div>
     </section>
   );
 }
