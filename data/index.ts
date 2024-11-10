@@ -158,6 +158,15 @@ export const recentProjects = [
     repoB: "https://github.com/skar777123/SMA_Backend.git",
     link: "https://konnect-socials.vercel.app/",
   },
+  {
+    id: 3,
+    title: "YumCipe- Recipe Sharing Website",
+    description:
+      " Yumcipe offers a place to discover, share, and explore a vast collection of recipes from around the world.",
+    img: "/yumcipe.png",
+    repo: "https://github.com/skar777123/Yumcipe---recipe-sharing-website.git",
+    repoB: "https://github.com/skar777123/Yumcipe---recipe-sharing-website.git",
+  },
 ];
 
 export const socialMedia = [

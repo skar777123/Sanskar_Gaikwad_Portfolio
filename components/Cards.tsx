@@ -14,7 +14,7 @@ export function ThreeDCardDemo() {
           My Recent <span className="text-purple">Projects </span>
         </h1>
       </div>
-      <div className="lg:flex lg:flex-row lg:justify-around">
+      <div className="lg:flex lg:flex-wrap lg:justify-evenly">
         {data.map((project, index) => {
           return (
             <CardContainer className="inter-var" key={index}>
@@ -55,12 +55,12 @@ export function ThreeDCardDemo() {
                         as="button"
                         className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                       >
-                        Fronend Repository →
+                        Frontend Repository →
                       </CardItem>
                     </a>
                   )}
                   {project.repoB && (
-                    <a href={project.repoB}>
+                    <a href={project.repoB} className="cursor-pointers">
                       <CardItem
                         translateZ={20}
                         translateX={-40}
@@ -71,16 +71,18 @@ export function ThreeDCardDemo() {
                       </CardItem>
                     </a>
                   )}
-                  <a href={project.link}>
-                    <CardItem
-                      translateZ={20}
-                      translateX={40}
-                      as="button"
-                      className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-                    >
-                      Visit Site
-                    </CardItem>
-                  </a>
+                  {project.link && (
+                    <a href={project.link} className="cursor-pointers">
+                      <CardItem
+                        translateZ={20}
+                        translateX={40}
+                        as="button"
+                        className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+                      >
+                        Visit Site
+                      </CardItem>
+                    </a>
+                  )}
                 </div>
               </CardBody>
             </CardContainer>
