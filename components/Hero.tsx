@@ -51,8 +51,7 @@ const Hero = () => {
             />
 
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-              I&apos;m a full-stack developer with a passion for AI and machine
-              learning.
+              I&apos;m a Cloud-Native & Full-stack developer 
             </p>
 
             <a href="#about">

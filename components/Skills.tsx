@@ -6,7 +6,7 @@ const Skills = () => {
     <section id="skills">
       <div className="flex justify-center">
         <h1 className="heading lg:max-w-[45vw]">
-          My <span className="text-purple">Skills </span>
+          My <span className="text-purple">Tech Stack </span>
         </h1>
       </div>
       <div className="max-w-5xl mx-auto px-8">

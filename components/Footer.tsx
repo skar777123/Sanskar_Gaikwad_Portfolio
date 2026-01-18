@@ -29,11 +29,8 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-center items-center mb-20">
-        <div
-          className="flex items-center
-         md:gap-3 gap-6"
-        >
+      <div className="flex mt-16 md:flex-col flex-col justify-between items-center mb-20">
+        <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map((info) => (
             <a href={info.link} key={info.id}>
               <div className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300">
@@ -42,6 +39,13 @@ const Footer = () => {
             </a>
           ))}
         </div>
+        <a href="/Sanskar-Gaikwad-Portfolio.pdf.pdf" download="Sanskar-Gaikwad-Resume.pdf">
+          <MagicButton
+            title="Download Resume"
+            icon={<FaLocationArrow />}
+            position="right"
+          />
+        </a>
       </div>
     </footer>
   );
