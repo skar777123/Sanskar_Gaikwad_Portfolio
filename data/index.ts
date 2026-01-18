@@ -464,6 +464,16 @@ export const recentProjects = [
     repoB: "https://github.com/skar777123/Yumcipe---recipe-sharing-website.git",
     link: "#", // Link was missing in previous revert, ensuring field exists
   },
+  {
+    id: 6,
+    title: "Konnect Socializing Website",
+    description:
+      "Konnect is a dynamic full-stack social media web application designed to foster meaningful connections and streamline social interactions. ",
+    img: "/konnect.png",
+    repo: "https://github.com/skar777123/Konnect-socials.git",
+    repoB: "https://github.com/skar777123/SMA_Backend.git",
+    link: "https://konnect-socials.vercel.app/",
+  },
 ];
 
 export const socialMedia = [
