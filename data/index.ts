@@ -480,11 +480,11 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/SanskarGaikwad",
+    link: "https://github.com/skar777123",
   },
   {
     id: 2,
     img: "/link.svg",
-    link: "https://linkedin.com/in/sanskargaikwad",
+    link: "https://www.linkedin.com/in/sanskar-gaikwad/",
   },
 ];
