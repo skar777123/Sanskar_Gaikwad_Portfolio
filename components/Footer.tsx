@@ -39,13 +39,13 @@ const Footer = () => {
             </a>
           ))}
         </div>
-        <a href="/Sanskar-Gaikwad-Portfolio.pdf.pdf" download="Sanskar-Gaikwad-Resume.pdf">
+        {/* <a href="/Sanskar-Gaikwad-Portfolio.pdf.pdf" download="Sanskar-Gaikwad-Resume.pdf">
           <MagicButton
             title="Download Resume"
             icon={<FaLocationArrow />}
             position="right"
           />
-        </a>
+        </a> */}
       </div>
     </footer>
   );
